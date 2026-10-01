@@ -1,0 +1,31 @@
+modLoader = "javafml"
+loaderVersion = "[1,)"
+#issueTrackerURL = ""
+license = "Insert License Here"
+
+[[mods]]
+modId = "animalese-typing"
+version = "${version}"
+displayName = "Animalese Typing"
+authors = "Me!"
+description = '''
+This is an example description! Tell everyone what your mod is about!
+'''
+#logoFile = ""
+
+[[dependencies.animalese-typing]]
+modId = "neoforge"
+type = "required"
+versionRange = "[26.1.2,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.animalese-typing]]
+modId = "minecraft"
+type = "required"
+versionRange = "[26.1.2,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[mixins]]
+config = "animalese-typing.mixins.json"
