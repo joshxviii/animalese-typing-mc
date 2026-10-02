@@ -1,9 +1,9 @@
+/.idea
 /.gradle
 /common/build
 /fabric/build
 /fabric/run
+/fabric/.gradle
 /neoforge/build
 /neoforge/run
 /neoforge/.gradle
-/common/build
-/.gradle
