@@ -1,26 +1,26 @@
 modLoader = "kotlinforforge"
-loaderVersion = "[6,)"
+loaderVersion = "[6.0,)"
 #issueTrackerURL = ""
-license = "Insert License Here"
+license = "MPL-2.0"
 
 [[mods]]
-modId = "animalese-typing"
+modId = "animalese_mc"
 version = "${version}"
 displayName = "Animalese Typing"
-authors = "Me!"
+authors = "joshxviii"
 description = '''
-This is an example description! Tell everyone what your mod is about!
+Animalese Typing is a mod that plays animalese sounds as you type!
 '''
 #logoFile = ""
 
-[[dependencies.animalese-typing]]
+[[dependencies.animalese_mc]]
 modId = "neoforge"
 type = "required"
 versionRange = "[26.1.2,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.animalese-typing]]
+[[dependencies.animalese_mc]]
 modId = "minecraft"
 type = "required"
 versionRange = "[26.1.2,)"

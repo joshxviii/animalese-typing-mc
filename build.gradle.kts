@@ -7,7 +7,7 @@ plugins {
     kotlin("jvm") version "2.3.0"
 
     id("dev.architectury.loom-no-remap") version "1.17.493" apply false
-    id("architectury-plugin") version "3.5-SNAPSHOT"
+    id("architectury-plugin") version "3.5.169"
     id("com.gradleup.shadow") version "9.4.3" apply false
 }
 

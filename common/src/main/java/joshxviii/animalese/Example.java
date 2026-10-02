@@ -1,4 +1,4 @@
 package joshxviii.animalese;
 
-public final class ExampleMod {
+public class Example {
 }

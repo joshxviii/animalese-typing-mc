@@ -1,4 +1,4 @@
-package joshxviii.animalese.fabric.client
+package joshxviii.animalese.fabric
 
 import net.fabricmc.api.ClientModInitializer
 

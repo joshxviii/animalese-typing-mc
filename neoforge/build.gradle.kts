@@ -47,7 +47,7 @@ dependencies {
     "shadowBundle"(project(path = ":common", configuration = "transformProductionNeoForge"))
 
     // Kotlin for Forge
-    implementation("thedarkcolour:kotlinforforge:${rootProject.property("kotlin_for_forge_version")}")
+    implementation("thedarkcolour:kotlinforforge-neoforge:${rootProject.property("kotlin_for_forge_version")}")
 }
 
 tasks.processResources {

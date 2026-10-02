@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
-  "id": "animalese-typing",
+  "id": "animalese_mc",
   "version": "${version}",
   "name": "Animalese Typing",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "description": "Animalese Typing is a mod that plays animalese sounds as you type!",
   "authors": [
-    "Me!"
+    "joshxviii"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
     "sources": "https://github.com/FabricMC/fabric-example-mod"
   },
-  "license": "CC0-1.0",
-  "icon": "assets/animalese-typing/icon.png",
+  "license": "MPL-2.0",
+  "icon": "assets/animalese_mc/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
@@ -23,7 +23,7 @@
     ],
     "client": [
       {
-        "value": "joshxviii.animalese.fabric.client.AnimaleseMcFabricClient",
+        "value": "joshxviii.animalese.fabric.AnimaleseMcFabricClient",
         "adapter": "kotlin"
       }
     ]
