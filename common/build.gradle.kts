@@ -1,0 +1,12 @@
+architectury {
+    common(rootProject.property("enabled_platforms").toString().split(","))
+}
+
+dependencies {
+    // We depend on Fabric Loader here to use the Fabric @Environment annotations,
+    // which get remapped to the correct annotations on each platform.
+    // Do NOT use other classes from Fabric Loader.
+    implementation("net.fabricmc:fabric-loader:${rootProject.property("fabric_loader_version")}")
+
+    api("dev.architectury:architectury:${rootProject.property("architectury_version")}")
+}

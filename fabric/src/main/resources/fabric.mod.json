@@ -16,10 +16,16 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "joshxviii.animalese.fabric.ExampleModFabric"
+      {
+        "value": "joshxviii.animalese.fabric.AnimaleseMcFabric",
+        "adapter": "kotlin"
+      }
     ],
     "client": [
-      "joshxviii.animalese.fabric.client.ExampleModFabricClient"
+      {
+        "value": "joshxviii.animalese.fabric.client.AnimaleseMcFabricClient",
+        "adapter": "kotlin"
+      }
     ]
   },
   "mixins": [
