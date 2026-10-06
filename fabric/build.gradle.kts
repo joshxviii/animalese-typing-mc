@@ -39,6 +39,7 @@ dependencies {
 
     // Fabric Kotlin
     implementation("net.fabricmc:fabric-language-kotlin:${rootProject.property("fabric_kotlin_version")}")
+    implementation("dev.architectury:architectury-fabric:${rootProject.property("architectury_version")}")
 }
 
 tasks.processResources {

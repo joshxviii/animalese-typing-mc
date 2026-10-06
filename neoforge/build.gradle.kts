@@ -48,6 +48,7 @@ dependencies {
 
     // Kotlin for Forge
     implementation("thedarkcolour:kotlinforforge-neoforge:${rootProject.property("kotlin_for_forge_version")}")
+    implementation("dev.architectury:architectury-neoforge:${rootProject.property("architectury_version")}")
 }
 
 tasks.processResources {
