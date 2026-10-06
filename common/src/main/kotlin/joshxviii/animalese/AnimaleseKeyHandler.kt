@@ -16,10 +16,9 @@ object AnimaleseKeyHandler {
         if (action != 0) {
             val hasNoEditboxFocused = screen == null || screen.focused !is EditBox || !((screen.focused as EditBox).canConsumeInput())
 
-            if (!hasNoEditboxFocused) {
-                val e = event
+            if (!hasNoEditboxFocused) { // TODO Play animalese sounds
                 minecraft.soundManager.play(
-                    SimpleSoundInstance.forUI(SoundEvents.NOTE_BLOCK_BANJO, 1.0f)
+                    SimpleSoundInstance.forUI(SoundEvents.NOTE_BLOCK_BANJO, 1.5f)
                 )
 
             }

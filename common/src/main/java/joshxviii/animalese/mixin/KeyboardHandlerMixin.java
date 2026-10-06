@@ -11,10 +11,8 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
 @Mixin(KeyboardHandler.class)
 public class KeyboardHandlerMixin {
-
     @Inject(method = "keyPress", at = @At("HEAD"))
     private void keyPress(long handle, int action, KeyEvent event, CallbackInfo ci) {
         AnimaleseKeyHandler.INSTANCE.keyPress(handle, action, event);
     }
-
 }
