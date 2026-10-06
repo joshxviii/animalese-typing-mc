@@ -30,7 +30,7 @@ object AnimaleseKeyHandler {
         val capsBoost = if (shiftDown && event.key in GLFW.GLFW_KEY_A..GLFW.GLFW_KEY_Z) 0.2f else 0f
         val pitch = 0.92f + Random.nextFloat() * 0.16f + capsBoost
 
-        Minecraft.getInstance().soundManager.play(SimpleSoundInstance.forUI(sound, pitch, 0.65f + capsBoost))
+        Minecraft.getInstance().soundManager.play(SimpleSoundInstance.forUI(sound, pitch, 0.225f + capsBoost))
         LOGGER.debug("Playing typing sound for keycode {}", event.key)
     }
 }
