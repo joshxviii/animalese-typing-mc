@@ -67,6 +67,7 @@ object AnimaleseSounds {
     }
 
     fun register() {
+        AnimaleseMc.LOGGER.info("Registering Animalese sound events")
         soundRegistry.register()
     }
 

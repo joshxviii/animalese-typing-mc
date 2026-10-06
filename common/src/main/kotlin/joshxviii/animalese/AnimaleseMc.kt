@@ -12,6 +12,7 @@ object AnimaleseMc {
     val LOGGER: Logger = LogManager.getLogger(MOD_ID)
 
     fun init() {
+        LOGGER.info("Initializing Animalese Typing")
         AnimaleseSounds.register()
     }
 }
